@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            background-color: gold;
+            align-items: center;
+        }
+        #logoblock,
+        #menublock{
+            height: 100px;
+            width: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #logoblock img{
+            height: 140px;
+        }
+        a:hover{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        #photoblock{
+            height: 85vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: lightgray;
+        }
+        #left,
+        #right{
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 0px 0px 12px  rgba(0, 0, 0, 0.5);
+        }
+        #photoblock img{
+            height: 100%;
+            width: 100%;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logoblock">
+            <img src="./logo.png" alt="">
+        </div>
+        <div id="menublock" style="width: 400px">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+            <a href="">PROFILE</a>
+        </div>
+    </nav>
+    <div id="photoblock">
+        <div id="left">
+            <img src="./pt11.webp" alt="im1">
+        </div>
+        <div id="right">
+            <img src="./pt2.jpg" alt="im2">
+    </div>
+</body>
+</html>
